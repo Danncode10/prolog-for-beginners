@@ -1,0 +1,121 @@
+# Prolog Project .gitignore
+
+# ======================
+# IDE & Editor Files
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.tern-port
+
+# ======================
+# OS Files
+# ======================
+Thumbs.db
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ======================
+# Prolog Specific
+# ======================
+# SWI-Prolog compilation artifacts
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Prolog backup/temp files
+*.bak
+*.backup
+*.tmp
+*.log
+
+# SWI-Prolog cache
+.swi-prolog-history
+*/.swi-prolog-history
+
+# Compiled Prolog files (if using compilation)
+*.wam
+*.qlf
+*.xwf
+
+# ======================
+# Personal Notes & Temp
+# ======================
+notes.txt
+scratch.pl
+test_*.pl
+temp/
+scratch/
+*.private
+
+# ======================
+# Environment Files
+# ======================
+.env
+.env.local
+.env.*.local
+secrets.txt
+credentials.txt
+
+# ======================
+# Build Artifacts
+# ======================
+dist/
+build/
+target/
+
+# ======================
+# Node Modules (if using Node/Electron)
+# ======================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ======================
+# Python Cache (if using Python tools)
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# ======================
+# System Files
+# ======================
+.directory
+.AppleDouble
+.LSOverride
+
+# ======================
+# Claude Code Specific
+# ======================
+.claude/
+.claude/worktrees/
+.claude/scheduled-tasks/
+settings.local.json
+
+# ======================
+# Git Related
+# ======================
+.git/
+.gitkeep
+
+# ======================
+# Prolog Debugging Output
+# ======================
+trace.txt
+debug.log
+error.log
